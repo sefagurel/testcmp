@@ -1,0 +1,5 @@
+framework module "Hydra" {
+    umbrella header "Hydra.h"
+    export *
+    module * { export * }
+}
